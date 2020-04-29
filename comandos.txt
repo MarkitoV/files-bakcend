@@ -1,0 +1,17 @@
+1.- iniciar el proyecto de node:
+    npm init -y
+
+2.- instalamos los siguientes módulos:
+    npm i express mongoose morgan bcrypt jsonwebtoken passport passport-jwt cors multer uuid fs-extra
+
+3.- instalamos los siguientes módulos para desarrollo:
+    npm i -D typescript tsc-watch @types/bcrypt @types/cors @types/express @types/jsonwebtoken @types/mongoose @types/morgan @types/passport @types/passport-jwt @types/multer @types/uuid @types/fs-extra
+
+4.- generamos el archivo de configuración tsconfig.json:
+    npx tsc --init
+
+5.- realizamos las siguientes modificaciones en ese archivo:
+
+    "target": "es6",
+    "outDir": "./dist",
+    "rootDir": "./src"
